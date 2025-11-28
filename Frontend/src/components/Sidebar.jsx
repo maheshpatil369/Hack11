@@ -44,15 +44,18 @@ export default function Sidebar({
   }
 
   return (
-    <div className="w-64 border-r bg-gray-50 flex flex-col">
+    <div className="w-74 border-r bg-gray-50 flex flex-col">
 
       {/* LOGO */}
-      <div className="p-4 flex items-center gap-3 border-b bg-white">
-        <div className="w-10 h-10 rounded-lg bg-blue-600 text-white flex items-center justify-center text-xl font-semibold">
-          SS
-        </div>
-        <div className="text-xl font-bold text-gray-800">SureSignal</div>
-      </div>
+    <div className="p-4 justify-center gap-3 border-b bg-white">
+  <img
+    src="https://i.ibb.co/NnpFMQhM/Whats-App-Image-2025-11-29-at-03-47-43-2376fd07.jpg"
+    alt="SureSignal Logo"
+    className="w-14 h-14 object-contain"  // adjust as needed
+  />
+  <div className="text-3xl font-bold text-gray-800">SureSignal</div>
+</div>
+
 
       {/* TOP BUTTONS */}
       <div className="p-3 border-b bg-white">
